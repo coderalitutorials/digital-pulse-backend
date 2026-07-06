@@ -452,7 +452,7 @@ export default function Services() {
   const services = [
     {
       title: "Website Design",
-      price: "From £299",
+      price: "From £800",
       image: "/images/web-design.webp",
       icon: Code2,
       desc:
@@ -461,7 +461,7 @@ export default function Services() {
     },
     {
       title: "Graphic Design",
-      price: "From £50",
+      price: "From £80",
       image: "/images/graphic-design.webp",
       icon: Palette,
       desc:
@@ -470,7 +470,7 @@ export default function Services() {
     },
     {
       title: "SEO Services",
-      price: "From £150/mo",
+      price: "From £350/mo",
       image: "/images/seo-service.webp",
       icon: SearchCheck,
       desc:
@@ -479,7 +479,7 @@ export default function Services() {
     },
     {
       title: "Digital Marketing",
-      price: "From £200/mo",
+      price: "From £400/mo",
       image: "/images/digital-marketing.webp",
       icon: Megaphone,
       desc:
