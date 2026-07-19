@@ -691,7 +691,7 @@ export default function Navbar() {
 
           {/* LOGO */}
 
-          <Link
+           {/* <Link
             to="/"
             onClick={() => setOpen(false)}
             className="flex items-center gap-4"
@@ -703,7 +703,7 @@ export default function Navbar() {
               <div className="absolute -inset-3 rounded-[30px] bg-blue-600/20 blur-xl" />
 
 
-              {/* LOGO BOX */}
+           
 
               <div className="
               relative
@@ -740,8 +740,33 @@ export default function Navbar() {
             </div>
 
 
-          </Link>
+          </Link>  */}
 
+<Link
+  to="/"
+  onClick={() => setOpen(false)}
+  className="flex shrink-0 items-center"
+  aria-label={BRAND.company}
+>
+  <div className="relative">
+    {/* Glow */}
+    <div className="absolute inset-0 bg-blue-600/15 blur-2xl rounded-full" />
+
+    <img
+      src="/images/pulse-logo.webp"
+      alt="PULSE Digital Marketing Solution Limited"
+      className="
+        relative
+        h-[220px]
+        w-auto
+        object-contain
+        select-none
+      "
+      loading="eager"
+      draggable={false}
+    />
+  </div>
+</Link>
 
 
 

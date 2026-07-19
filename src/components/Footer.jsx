@@ -71,7 +71,7 @@ export default function Footer() {
               <img
                 src="/images/pulse-logo.webp"
                 alt="PULSE Digital Marketing Solution Limited Logo"
-                className="h-16 w-auto object-contain"
+                className=" h-[220px] w-auto object-contain"
                 loading="lazy"
               />
             </Link>
